@@ -1,0 +1,16 @@
+Method,Threads,Time
+CLH_Lock,1,25806350
+CLH_Lock,2,83325433
+CLH_Lock,4,354012326
+CLH_Lock,6,543385744
+CLH_Lock,8,584413732
+Lamports_Mutex,1,19579817
+Lamports_Mutex,2,20338657
+Lamports_Mutex,4,26000903
+Lamports_Mutex,6,22470372
+Lamports_Mutex,8,24305396
+Anderson_Lock,1,21234930
+Anderson_Lock,2,20424827
+Anderson_Lock,4,10293816
+Anderson_Lock,6,11058343
+Anderson_Lock,8,11192346

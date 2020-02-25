@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="335c93e5-ead3-4b81-8c8b-bdffec082012" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R1fVCCcZRytZt2b2G2XBoHQOFE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.SLListRepOkTester">
+    <configuration name="SLListAddTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SLList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.SLListAddTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLListRepOkTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SLList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.SLListRepOkTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLListRepOkTester.t0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SLList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.SLListRepOkTester" />
+      <option name="METHOD_NAME" value="t0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLListRepOkTester.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SLList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.SLListRepOkTester" />
+      <option name="METHOD_NAME" value="t2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLListRepOkTester.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SLList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.SLListRepOkTester" />
+      <option name="METHOD_NAME" value="t3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SLListRepOkTester" />
+        <item itemvalue="JUnit.SLListRepOkTester.t0" />
+        <item itemvalue="JUnit.SLListAddTester" />
+        <item itemvalue="JUnit.SLListRepOkTester.t3" />
+        <item itemvalue="JUnit.SLListRepOkTester.t2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="335c93e5-ead3-4b81-8c8b-bdffec082012" name="Default Changelist" comment="" />
+      <created>1568839544167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568839544167</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,126 @@
+// Generated for: spectre
+// Generated on: Dec  5 17:25:05 2018
+// Design library name: EE382M_EE338L_Project_Testbench
+// Design cell name: Universal_Testbench_Top
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+parameters Bias_vcm_in=650m CL=2p Cc=450f Cf=800f Cs=1.6p DC_Sweep=0 \
+    ID1=13.8u ID2=156u Input_Offset=1.125u L1=180n L11=180n L2=180n \
+    Lbias=600n Lpch11=180n Vref=900m Vstep=100m W1=22.8u W11=239.4u \
+    W2=185u W22=194.8u Wbias=8u Wfeed=28u currentMirrorRatio=20 sim_CMRR=0 \
+    sim_PSRR_m=0 sim_PSRR_p=0 sim_ac=1 sim_dcsweep=0 sim_noise=0 sim_stb=0 \
+    sim_tran=0
+include "/home/ecelrc/students/tplantin/cadence/ee382m_tsmc180n.scs"
+
+// Library name: EE382M_EE338L_Project_Testbench
+// Cell name: cmfb
+// View name: schematic
+subckt cmfb Vb_cmfb inm inp vcm_ref
+    E2 (Vb_cmfb 0 net5 vcm_ref) vcvs gain=-100
+    E1 (net014 0 inm 0) vcvs gain=0.5
+    E0 (net5 net014 inp 0) vcvs gain=0.5
+ends cmfb
+// End of subcircuit definition.
+
+// Library name: EE382M_EE338L_Project_Testbench
+// Cell name: OTA_Design_2018
+// View name: schematic
+subckt OTA_Design_2018 GND Vim Vip Vom2 Vop2 VDD
+    I35 (Vbias2 GND) isource dc=ID2/currentMirrorRatio type=dc
+    G0 (net13 GND net23 GND) vccs gm=30u
+    M5 (net05 VB5 GND GND) nch w=1.04*W22*ID1/ID2 l=Lbias
+    M7 (Vop1 VB3 net31 GND) nch w=W1 l=L1
+    M6 (Vom1 VB3 net39 GND) nch w=W1 l=L1
+    M4 (net39 Vip net13 GND) nch w=W1 l=L1
+    M3 (net31 Vim net13 GND) nch w=W1 l=L1
+    M37 (VB3 VB3 GND GND) nch w=0.1*Wbias l=10*Lbias
+    M24 (Vom2 VB5 GND GND) nch w=W22 l=Lbias
+    M27 (VB5 VB5 GND GND) nch w=1.1*W22/currentMirrorRatio l=Lbias
+    M25 (Vop2 VB5 GND GND) nch w=W22 l=Lbias
+    M26 (net13 VB5 GND GND) nch w=2*W22*ID1/ID2 l=Lbias
+    I31 (net23 Vop2 Vom2 net24) cmfb
+    C0 (Vom1 Vop2) capacitor c=Cc
+    C1 (Vop1 Vom2) capacitor c=Cc
+    V10 (net24 GND) vsource dc=Vref type=dc
+    R0 (net08 VDD) resistor r=0
+    M28 (net25 VB1 net08 net08) pch w=W11 l=Lpch11
+    M14 (Vom2 Vop1 net08 net08) pch w=W2 l=L2
+    M13 (net27 VB1 net08 net08) pch w=W11 l=L11
+    M10 (Vop2 Vom1 net08 net08) pch w=W2 l=L2
+    M19 (net28 VB1 net08 net08) pch w=W11 l=L11
+    M16 (Vbias Vbias net08 net08) pch w=Wbias l=Lbias
+    M29 (VB1 VB2 net25 VDD) pch w=W11 l=Lpch11
+    M21 (Vbias2 Vbias2 Vbias VDD) pch w=Wbias l=Lbias
+    M20 (VB5 Vbias2 net034 VDD) pch w=Wbias l=Lbias
+    M18 (net034 Vbias net08 net08) pch w=Wbias l=Lbias
+    M12 (Vop1 VB2 net27 VDD) pch w=W11 l=L11
+    M8 (Vom1 VB2 net28 VDD) pch w=W11 l=L11
+    M17 (VB3 Vbias net08 net08) pch w=Wbias l=Lbias
+    M1 (VB2 net05 VB1 VDD) pch w=W11 l=3*Lpch11
+    M2 (net05 net05 VB2 VDD) pch w=W11 l=Lpch11
+ends OTA_Design_2018
+// End of subcircuit definition.
+
+// Library name: EE382M_EE338L_Project_Testbench
+// Cell name: Universal_Testbench_Top
+// View name: schematic
+V5 (net73 0) vsource dc=DC_Sweep*sim_dcsweep+Input_Offset*sim_PSRR_p + Input_Offset*sim_PSRR_m \
+         type=pwl mag=sim_ac wave=[ 10n 0 10.05n Vstep ]
+R1 (inp p) resistor r=1G isnoisy=no
+R0 (inm m) resistor r=1G isnoisy=no
+W17 (net0176 outm noise_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T \
+        rclosed=1m
+W8 (net0178 outp noise_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T \
+        rclosed=1m
+W11 (inp p dcsweep_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T rclosed=1m
+W1 (inm m ac_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T rclosed=1m
+W0 (inp p ac_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T rclosed=1m
+W16 (inp p PSRR_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T rclosed=1m
+W15 (inm m PSRR_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T rclosed=1m
+W14 (net0176 outm tran_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T \
+        rclosed=1m
+W13 (inp p CMRR_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T rclosed=1m
+W6 (net0178 outp tran_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T \
+        rclosed=1m
+W12 (inm m CMRR_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T rclosed=1m
+W22 (net0178 outp stb_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T \
+        rclosed=1m
+W10 (inm m dcsweep_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T rclosed=1m
+W23 (net0176 outm stb_sim 0) relay vt1=500.0m vt2=510.00m ropen=1T \
+        rclosed=1m
+I57 (out1p out1m outp outm) diffstbprobe
+I37 (net0121 m p out1m out1p vdd!) OTA_Design_2018
+V11 (net0121 0) vsource dc=0 mag=sim_PSRR_m type=dc
+V6 (vdd! 0) vsource dc=1.8 mag=sim_PSRR_p type=dc
+V10 (tran_sim 0) vsource dc=sim_tran type=dc
+V4 (noise_sim 0) vsource dc=sim_noise type=dc
+V9 (PSRR_sim 0) vsource dc=sim_PSRR_p + sim_PSRR_m type=dc
+V2 (vcm_in 0) vsource dc=Bias_vcm_in mag=sim_CMRR type=dc
+V3 (ac_sim 0) vsource dc=0 mag=sim_ac type=dc
+V8 (CMRR_sim 0) vsource dc=sim_CMRR type=dc
+V7 (dcsweep_sim 0) vsource dc=sim_dcsweep type=dc
+V12 (stb_sim 0) vsource dc=sim_stb type=dc
+E4 (inm vcm_in net73 0) vcvs gain=-0.5
+E3 (inp vcm_in net73 0) vcvs gain=0.5
+C3 (net0176 p) capacitor c=Cf
+C2 (net0178 m) capacitor c=Cf
+C6 (outp 0) capacitor c=3p
+C5 (outm 0) capacitor c=3p
+C9 (m inm) capacitor c=Cs
+C10 (p inp) capacitor c=Cs
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=25.0 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub
+include \
+        "/misc/linuxws/packages/cadence_2017/ic617/tools/dfII/etc/cdslib/artist/analogLib/diffstbprobe/diffstbprobe.scs"

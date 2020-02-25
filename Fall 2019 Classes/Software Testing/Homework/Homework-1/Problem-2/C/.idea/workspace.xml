@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f419b96f-87fb-4227-8419-49575f3fe5b7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RGdEeeUTkfhDARjzswVj1POZmI" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EqualsTester">
+    <configuration name="EqualsTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.EqualsTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashCodeTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.HashCodeTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashCodeTester.t3_CD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.HashCodeTester" />
+      <option name="METHOD_NAME" value="t3_CD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashCodeTester.t3_OC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.HashCodeTester" />
+      <option name="METHOD_NAME" value="t3_OC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashCodeTester.t3_OCF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset1" />
+      <option name="MAIN_CLASS_NAME" value="pset1.HashCodeTester" />
+      <option name="METHOD_NAME" value="t3_OCF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EqualsTester" />
+        <item itemvalue="JUnit.HashCodeTester" />
+        <item itemvalue="JUnit.HashCodeTester.t3_OCF" />
+        <item itemvalue="JUnit.HashCodeTester.t3_CD" />
+        <item itemvalue="JUnit.HashCodeTester.t3_OC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f419b96f-87fb-4227-8419-49575f3fe5b7" name="Default Changelist" comment="" />
+      <created>1569297255493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569297255493</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+
+Hi All,
+    Here are the topics for Test 1. 
+
+***********************************************************
+
+Chapter 1: Threads,
+Processes, Threads, Runnable, Callable, Join, Futures, 
+ExecutorService, ForkJoinPool, Amdahl's law.
+
+
+Chapter 2: Mutual Exclusion,
+Peterson's Algorithm, Filter Algorithm,
+Bakery, Fischer's Algorithms, Splitters,
+Lamport's Fast Mutex, 
+Anderson's Lock, CLH Lock, MCS Lock
+
+
+Chapter 3: Synchronization
+Semaphores, Monitors, ReentrantLocks
+
+Chapter 4: Consistency Conditions
+Sequential Consistency,
+Linearizability
+
+OpenMP
+
+Parallel Algorithms:
+Finding Maximum,
+Merge,
+Parallel Prefix-Sum
+
+Chapter 6:
+Concurrent Data Structures
+Stack, Queues (Lock based and Michael and Scott's Lockfree Queues),
+Linked Lists
+
+***********************************************************
+
+
+
+

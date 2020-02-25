@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      tplantin
+HostName                       yoshi.ece.utexas.edu
+ProcessIdentifier              26283
+ProcessCreationTime_UTC        1543595844
+ProcessCreationTime_Readable   Fri Nov 30 10:37:24 2018 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/ecelrc/students/tplantin/cadence/A_Final_Project/SPICE_MONKEYING/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Nov 30 10:42:05 2018 CST
